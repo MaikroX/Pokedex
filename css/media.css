@@ -1,0 +1,34 @@
+@media(max-width: 420px) {
+    .arrow-with {
+        margin: 0px;
+    }
+    .logo-pokemon img {
+        width: 250px;
+    }
+    .header {
+        margin-top: 4px;
+    }
+    .poke-name {
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 795px) {
+    .arrow-with {
+        margin: 0px;
+    }
+    .card-all {
+        display: flex;
+        flex-direction: row;
+    }
+    .info-container {
+        margin-top: 0px;
+    }
+    .progress {
+        width: 150px;
+    }
+    .column {
+        font-size: 12px;
+    }
+}
